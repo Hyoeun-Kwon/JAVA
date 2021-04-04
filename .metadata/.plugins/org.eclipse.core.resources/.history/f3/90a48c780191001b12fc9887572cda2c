@@ -1,0 +1,19 @@
+package com.javalec.variable_02;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 변수와 상수
+		String str = "James";          // 선언부분
+		int num = 10;
+		double numDouble = 20.2;
+		
+		System.out.println(str + ":" + num);
+		System.out.println(num + num);
+		System.out.println((double)num + numDouble); //실수 출력 , num 앞에도 double 써줘야 좋음
+		System.out.println(num + (int)numDouble); // 정수 출력 (반올림 아님)
+		
+	}
+
+}

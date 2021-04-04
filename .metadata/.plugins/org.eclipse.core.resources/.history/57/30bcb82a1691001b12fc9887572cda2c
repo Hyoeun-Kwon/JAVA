@@ -1,0 +1,18 @@
+package com.javalec.calc;
+
+import java.util.Scanner;
+
+public class Calc {
+
+	public static void main(String[] args) {
+		
+		// 사용자의 입력 데이터 받기
+		Scanner scanner = new Scanner(System.in);
+		
+		int num = scanner.nextInt(); // 화면에 있는 정수 값 가져오기
+		System.out.printLn("사용자 입력 숫자는 " + num + "입니다.");
+		
+
+	}
+
+}

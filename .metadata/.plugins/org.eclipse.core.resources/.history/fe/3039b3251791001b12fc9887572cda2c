@@ -1,0 +1,47 @@
+package com.javalec.calc;
+
+import java.util.Scanner;
+
+public class Calc {
+
+	public static void main(String[] args) {
+		
+		// 사용자의 입력 데이터 받기
+		Scanner scanner = new Scanner(System.in); //선언
+		
+		
+		System.out.print("숫자를 입력하세요 :");
+		int num = scanner.nextInt(); // 화면에 있는 정수 값 가져오기
+		
+		
+		System.out.println("사용자 입력 숫자는 " + num + "입니다.");
+		
+		
+		/*
+		 * Exercise
+		 * 
+		 * 숫자를 입력해 주세요 : 12
+		 * 
+		 * 입력하신 숫자는 3의 배수 입니다.
+		 * 
+		 * ------
+		 * 숫자를 입력해 주세요 : 10
+		 * 
+		 * 입력하신 숫자는 3의 배수가 아닙니다.
+		 * 
+		 */
+		
+		Scanner scanner2 = new Scanner(System.in);
+		
+		System.out.println("숫자를 입력해 주세요 : ");
+		int num2 = scanner2.nextInt();    // scanner2라고 했으면 scanner2라고 받아야함 
+	
+		
+		System.out.println("입력하신 숫자는 " + num2%3=0 ? "3의 배수 입니다." : "3의 배수가 아닙니다.");
+		
+		
+		
+
+	}
+
+}

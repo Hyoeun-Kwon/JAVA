@@ -1,0 +1,24 @@
+package com.javalec.variable_03;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// 연산자 종류별 출력
+		int i = 10;
+		int j = 2, k = 5;
+		
+		
+		System.out.println("<--산술 연산자 -->");
+		System.out.println("덧셈:" + i + " + " + j + " = " + (i+j));
+		System.out.println("뺄셈:" + i + " - " + j + " = " + (i-j));
+		System.out.println("곱셈:" + i + " * " + j + " = " + (i*j));
+		System.out.println("나눈 몫:" + i + " / " + j + " = " + (i/j));
+		System.out.println("나눈 나머지:" + i + " % " + j + " = " + (i%j));  // 나머지값은 % -> 짝수(0), 홀수(1) 구할때(2로 나눠서) 
+				
+		System.out.println("<--자동 증감 연산자 -->");
+		i = i + 1;
+		System.out.println(i);
+
+	}
+
+}

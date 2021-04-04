@@ -1,0 +1,30 @@
+package com.javalec.base;
+
+import java.util.Scanner;
+
+public class MainClass2 {
+
+	public static void main(String[] args) {
+// Exercise : 사용자로부터 국어, 영어, 수학 점수를 입력 받아 평균 점수를 구하고, 각 과목의 입력 점수가 평균 이상인지 아닌지 판별하는 프로그램
+		
+		String subject = "국어";
+		String subject1 = "영어";
+		String subject2 ="수학";
+		Scanner scanner = new Scanner(System.in);
+		int score = scanner.nextInt();
+		
+		double average = score/3;
+				
+		
+		System.out.println(subject + " 점수를 입력하세요!");
+		
+		
+		System.out.println(subject1 + " 점수를 입력하세요!");
+		System.out.println(subject2 + " 점수를 입력하세요!");
+		
+		
+		
+
+	}
+
+}

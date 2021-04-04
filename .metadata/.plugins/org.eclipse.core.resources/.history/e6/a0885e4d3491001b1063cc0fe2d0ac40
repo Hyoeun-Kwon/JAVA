@@ -1,0 +1,39 @@
+package com.javalec.base;
+
+import java.util.Scanner;
+
+public class MainClass3 {
+
+	public static void main(String[] args) {
+		//BMI Calculation BMI지수= 몸무게(kg) ÷ (신장(m) × 신장(m))
+		//몸무게
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("몸무게를 입력하세요: ");
+		int weight = scanner.nextInt();
+		//키
+		Scanner scanner2 = new Scanner(System.in); 
+		System.out.println("키를 입력하세요: ");
+		int height = scanner2.nextInt();
+		
+
+		double BMI= weight / (height * height);
+		System.out.println(BMI);
+		String result ="";
+		
+		if(BMI>= 30) {
+			result = "비만입니다.";
+		}else if (BMI >=25) {
+			result = "과체중입니다.";
+		}else if (BMI >=20) {
+			result = "정상입니다";
+		}else {
+			result = "저체중입니다";
+		}
+		
+		
+
+			
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+package com.javalec.base;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		int i = 10; // ~를 위한 변수다 라고 옆에 적어두는 게 좋음
+		int j = 20;
+		int k = 10;
+		
+		
+		// 비교문 #1
+//		if( i> j ) {    //{: (scope) 범위 중요! true 일때만 들어감
+//			
+//			System.out.println("i가 j보다 큽니다");
+//		}	
+//		
+//		System.out.println(">>> End <<<");
+		
+		// 비교문 #2 : 비교문으로 입력한 숫자 크기의 차이 구하기
+		
+		
+	}
+
+}

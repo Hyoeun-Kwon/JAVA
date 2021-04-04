@@ -1,0 +1,15 @@
+package com.javalec.base; // pakage는 안만들어도 되지만 만들어야 하는 이유 나중에 알려줌
+
+public class Main { // pakage 별로 class를 만들 수 있음 : 우리팀은 pakage를 어떻게 하자 해서 따로 만들어야 함
+
+	public static void main(String[] args) {
+		// 작업 순서
+		
+		for(int i=1; i<=9; i++) {
+			//System.out.println(i);
+			System.out.println("5 X "+ i + " = " + (5*i));
+		}
+
+	}
+
+}

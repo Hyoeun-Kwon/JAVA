@@ -1,0 +1,28 @@
+package com.javalec.base;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		//
+//		System.out.println("apple\nBanana\nGrape");   //> new line 
+//		System.out.println("apple\tBanana\tGrape");   //> tab
+//		System.out.println("apple\"Banana\"Grape");   //>" 찍기
+		
+		//Quiz 
+//		for(int i=1; i<=9; i++) {
+//			for(int dan=2; dan<=9; dan++){
+//				System.out.print(dan +" X "+ i + " = " + String.format("%2d",(dan*i))+"\t");
+//			}	
+//				System.out.println();
+//		}
+		
+
+			
+		
+		
+		
+		
+	}
+
+}
