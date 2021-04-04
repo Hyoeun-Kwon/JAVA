@@ -21,6 +21,11 @@ public class Exercise {
 		for(int inputnum=scanner.nextInt(); inputnum<=1; inputnum++) {
 			System.out.print(inputnum+"\n");
 		}
+		while(true) {
+			
+		}
+		System.out.println("입력한 숫자의 합은"+ 10 + "입니다");
+		
 		
 		
 		
