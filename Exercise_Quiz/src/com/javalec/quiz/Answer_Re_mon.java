@@ -5,6 +5,16 @@ import java.util.Scanner;
 public class Answer_Re_mon {
 
 	public static void main(String[] args) {
+//Quiz10//Input score :
+		//1의 score : __
+		//2의 score : ___
+		//10의 score 까지
+		//-----Histogram-----
+		//90: ##
+		//80: 
+		// 0: #
+		
+		
 		// 선언자
 		Scanner scanner = new Scanner(System.in);
 		int[] score = new int[10];// 입력 받은 점수 배열 저장
@@ -15,7 +25,7 @@ public class Answer_Re_mon {
 //			histo[i]=0;
 //		}
 		
-		System.out.println("Input score");
+		System.out.println("Input score :");
 		
 		//점수 입력받으면서 배열의 갯수를 정한다.
 //		for(int i=1; i<=10; i++) {
@@ -28,9 +38,11 @@ public class Answer_Re_mon {
 		for(int i=0; i<score.length; i++) {
 			System.out.print((i+1)+"의 Score :");
 			score[i] = scanner.nextInt();
-			histo[score[i]/10]++;
+//			histo[score[i]/10]++; //아래와 같은 말 
+			histo[score[i]/10] +=1;// ex) 90점대면 histo 9번째에 1명! (누적이므로)
 		}
 		
+		scanner.close(); //.은 method
 		
 		
 		
@@ -54,7 +66,6 @@ public class Answer_Re_mon {
 				System.out.println();
 	
 		}
-		
 		
 	}
 
