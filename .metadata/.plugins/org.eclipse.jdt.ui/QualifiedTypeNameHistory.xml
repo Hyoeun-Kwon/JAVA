@@ -2,10 +2,17 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.net.MulticastSocket"/>
     <fullyQualifiedTypeName name="com.sun.java_cup.internal.runtime.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="sun.jvm.hotspot.gc.parallel.PSYoungGen"/>
     <fullyQualifiedTypeName name="com.javalec.base.Main"/>
     <fullyQualifiedTypeName name="com.sun.tools.jdeprscan.scan.Scan"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.gc.parallel.PSYoungGen"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="sun.awt.geom.Crossings.EvenOdd"/>
+    <fullyQualifiedTypeName name="com.javalec.function.SumEvenOdd"/>
+    <fullyQualifiedTypeName name="com.javalec.function.SumEvenOdd2"/>
 </qualifiedTypeNameHistroy>
