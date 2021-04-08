@@ -21,4 +21,19 @@
 			<item value=""/>
 		</list>
 	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/Volumes/Data/AI/HE/Class_JAVA/JAVA/Quiz5_OPP"/>
+			<item value="/Volumes/Data/AI/HE/Class_JAVA/JAVA/Quiz4_OPP"/>
+			<item value="/Volumes/Data/AI/HE/Class_JAVA/JAVA/Quiz3_OPP"/>
+			<item value="/Volumes/Data/AI/HE/Class_JAVA/JAVA/OPP_04"/>
+			<item value="/Volumes/Data/AI/HE/Class_JAVA/JAVA/Opp_03_Review"/>
+			<item value="/Volumes/Data/AI/HE/Class_JAVA/JAVA/OPP_03"/>
+			<item value="/Volumes/Data/AI/HE/Class_JAVA/JAVA/Quiz2_OPP"/>
+		</list>
+	</section>
 </section>
